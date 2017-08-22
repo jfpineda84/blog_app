@@ -1,1 +1,9 @@
-<h1>this is the index file</h1>
+<% @posts.each do |post| %>
+  <div class="post_wrapper">
+    <h3 class="title"><%= link_to post.title, post %></p></h3>
+    <p class="date"><%= post.created_at.strftime("%B, %D, %Y") %></p>
+  </div>
+
+
+
+<% end %>
