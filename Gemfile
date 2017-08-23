@@ -55,3 +55,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Added at 2017-08-21 17:57:00 -0400 by juanfer:
 gem "hirb", "~> 0.7.3"
+
+# Added at 2017-08-23 15:07:25 -0400 by juanfer:
+gem "devise", "~> 4.3"
